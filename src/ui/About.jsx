@@ -7,27 +7,29 @@ import { FaCode } from "react-icons/fa6";
 const About = () => {
     const textArray = [
         { title: "JavaScript", link: "React" },
-        { title: "React Js", link: "about", },
-        { title: "Node Js", link: "experience" },
-        { title: "Express Js", link: "project" },
+        { title: "React", link: "about", },
+        { title: "Node.js", link: "experience" },
+        { title: "Express.js", link: "project" },
         { title: "Firebase", link: "Contact" },
         { title: "MongoDB", link: "Contact" },
+        { title: "Next.js", link: "Contact" },
+        { title: "Redux", link: "Contact" },
     ]
     return (
         <Container id="about" className=' lg:py-32 flex flex-col gap-6'>
             <SectionTitle titleNo="01" title="About me" />
-            <div className='flex flex-col md:flex-row lg:flex-row gap-6'>
-                <div className='w-full  md:w-2/3 font-medium flex flex-col'>
+            <div className='flex flex-col md:flex-row lg:flex-row gap-6 w-full'>
+                <div  data-aos="fade-right" data-aos-duration="2000" className='w-full  md:w-2/3 font-medium flex flex-col'>
                     <p className='text-lg text-slate-400 '>I'm a passionate and dedicated MERN stack developer with a strong foundation in MongoDB, Express.js, React.js, and Node.js. My goal is to leverage my skills to build dynamic, scalable, and efficient web applications. I thrive in collaborative environments and am always eager to learn and adopt new technologies.</p>
                     <div className='grid grid-cols-2 py-10 '>
                         {textArray.map(item => (
-                            <a key={item.title} className='flex text-xl hover:text-white/80 items-center gap-2 mt-2' href="">
+                            <p key={item.title} className='flex text-xl hover:text-white/80 items-center gap-2 mt-2' >
                                 <FaCode className='text-designColor/80 ' />
-                                {item.title}</a>
+                                {item.title}</p>
                         ))}
                     </div>
                 </div>
-                <div className='w-full lg:w-1/3 h-96 relative group'>
+                <div  data-aos="fade-left" data-aos-duration="2000" className='w-full lg:w-1/3 h-96 relative group'>
                     <div className=' absolute w-full h-96  rounded-lg'>
                         <div className='w-full h-full relative z-20 flex '>
                             <img src={photo2} alt="profile photo" className='rounded-lg   lg:w-full object-cover   duration-300'/>

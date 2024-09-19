@@ -2,9 +2,10 @@ import About from "./ui/About"
 // import Achive from "./ui/Achive"
 import Banner from "./ui/Banner"
 import Contact from "./ui/Contact"
-import Experience from "./ui/Experience"
+// import Experience from "./ui/Experience"
 import Header from "./ui/Header"
 import Project from "./ui/Project"
+import ScrollBtn from "./ui/ScrollBtn"
 import Skills from "./ui/Skills"
 function App() {
   return (
@@ -13,11 +14,12 @@ function App() {
         <Header />
         <Banner />
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Project />
         {/* <Achive /> */}
         <Skills/>
         <Contact/>
+        <ScrollBtn/>
       </main>
     </>
   )

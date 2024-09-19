@@ -15,7 +15,7 @@ const Banner = () => {
                     Hi<span className=" inline-block animate-wave">👋🏻</span>, I am
                 </h1>
                 <motion.h1
-                    initial={{ opacity: 0 }}
+                    initial={{ opacity: 0 }}a
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.7 }}
                     className='text-xl lg:text-4xl font-bold flex flex-col'

@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <Container id="contact" className='py-24 '>
             <SectionTitle className="text-base" titleNo="05" title="Contact Me" />
-            <div className="flex flex-col lg:flex-row items-center justify-between gap-8 my-10 border-2 border-slate-600 p-4 rounded-lg w-full">
+            <div  className="flex flex-col lg:flex-row items-center justify-between gap-8 my-10 border-2 border-slate-600 p-4 rounded-lg w-full">
                 <div className=" w-full lg:w-1/3">
                     <img src={hand} alt="" className="rounded-lg" />
                     <h1 className=" text-xl font-semibold mt-6">Find me on E-mail</h1>

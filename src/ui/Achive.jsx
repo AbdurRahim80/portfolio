@@ -2,7 +2,7 @@ import Container from "./Container";
 
 const Achive = () => {
     return (
-        <Container id = "achive" classNameName='bg-teal-100'>
+        <Container id = "achive" className='bg-teal-100'>
             Achive
         </Container>
     );

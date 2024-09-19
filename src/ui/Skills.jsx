@@ -4,9 +4,9 @@ import Container from './Container';
 const Skills = () => {
     return (
         <div>
-            <Container className="my-32">
+            <Container id="skills" className="my-32">
                 <h1 className='text-3xl font-bold text-center pt-16 my-16'>Skills</h1>
-                <div className='flex flex-wrap justify-center items-center gap-16'>
+                <div data-aos="zoom-out-up" data-aos-duration="2000" className='flex flex-wrap justify-center items-center gap-16'>
                     <div className='flex gap-2 items-center justify-center'>
                         <img src={html5} alt="" className='w-10 h-10' />
                         <h1 className='text-xl font-bold'>HTML</h1>
@@ -25,7 +25,7 @@ const Skills = () => {
                     </div>
                     <div className='flex gap-2 items-center justify-center'>
                         <img src={js} alt="" className='w-10 h-10' />
-                        <h1 className='text-xl font-bold'>Javascript</h1>
+                        <h1 className='text-xl font-bold'>JavaScript</h1>
                     </div>
                     <div className='flex gap-2 items-center justify-center'>
                         <img src={react2} alt="" className='w-10 h-10' />
