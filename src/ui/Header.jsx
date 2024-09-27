@@ -57,7 +57,7 @@ const Header = () => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.5 }}
-                            href="AbdurRahim.pdf" target="_blank" className="text-[13px] text-designColor font-medium px-2    py-2 rounded-md  border-designColor/70 tracking-wider border uppercase hover:bg-slate-700 duration-300">
+                            href="AbdurRahimResume.pdf" target="_blank" className="text-[13px] text-designColor font-medium px-2    py-2 rounded-md  border-designColor/70 tracking-wider border uppercase hover:bg-slate-700 duration-300">
                             Resume
                         </motion.a>
                     </div>
