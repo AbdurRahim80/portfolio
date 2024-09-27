@@ -22,7 +22,7 @@ const Project = () => {
                             <h1 className="text-xl font-bold">Asia Tourist Sports Project </h1>
                         </div>
                         <div className="bg-slate-800 p-2 rounded-md">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur, inventore numquam adipisci perspiciatis dolorum enim. Doloribus impedit unde vero, quidem, eos a accusamus, atque officia et laboriosam odio nobis?</p>
+                            <p>This tourist spot website allows users to explore and add tourist spots from various Asian countries.  The home page displays six tourist spot cards, a contact section, and a footer. Users can register by providing their name, email, photo, and password, and once logged in, their photo and name appear in the navbar. The all tourist spots page is public and displays all spots, while the add tourist spot page allows logged-in users to contribute new spots. The my list page shows the spots users have added, with options to update or delete them.</p>
                         </div>
                         <div>
                             <ul className="flex flex-wrap lg:justify-end items-center gap-3 text-slate-400">
@@ -33,16 +33,16 @@ const Project = () => {
                                 <li>Firebase</li>
                             </ul>
                             <div className="flex lg:justify-end items-center gap-3 mt-4">
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href=" https://github.com/AbdurRahim80/asiatourtism-client" target="_blank">Client side</a></p>
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="https://github.com/AbdurRahim80/asiatourtism-server" target="_blank">Server side</a></p>
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaLifeRing /> <a href=" https://asiatourtism.web.app/" target="_blank">Live side</a></p>
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href=" https://github.com/AbdurRahim80/asiatourtism-client" target="_blank" className="text-xs lg:text-base">Client repo</a></p>
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="https://github.com/AbdurRahim80/asiatourtism-server" target="_blank" className="text-xs lg:text-base">Server repo</a></p>
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaLifeRing /> <a href=" https://asiatourtism.web.app/" target="_blank" className="text-xs lg:text-base">Live</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 {/* second project */}
                 <div data-aos="fade-left" data-aos-duration="2000" className="flex flex-col lg:flex-row-reverse justify-between items-center gap-8 mt-8 lg:relative">
-                    <div className="w-full lg:w-1/2 rounded-lg overflow-hidden ">
+                    <div className="w-full lg:w-1/2 h-80 object-contain rounded-lg overflow-hidden ">
                         <a href="https://spectacular-cocada-435348.netlify.app/" target="_blank" className="relative group">
                             <img src={blog} alt="" className="w-full h-full rounded-lg group-hover:scale-105 duration-300" />
                             <div className="w-full h-full absolute bg-black/20 hover:bg-transparent duration-200 left-0 top-0" />
@@ -54,7 +54,7 @@ const Project = () => {
                             <h1 className="text-xl font-bold">ByteBraze Blogs</h1>
                         </div>
                         <div className="bg-slate-800 p-2 rounded-md">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur, inventore numquam adipisci perspiciatis dolorum enim. Doloribus impedit unde vero, quidem, eos a accusamus, atque officia et laboriosam odio nobis?</p>
+                            <p>This blog site allows users to explore, create, edit, and delete blog posts. The homepage displays recent posts with titles, summaries, and images. Users can register or log in to manage their own posts, with profile details shown in the navbar. The site includes category filters for easy navigation and demonstrates user authentication, CRUD functionality, and responsive design.</p>
                         </div>
                         <div>
                             <ul className="flex flex-wrap items-center gap-3 text-slate-400">
@@ -65,15 +65,15 @@ const Project = () => {
                                 <li>Firebase</li>
                             </ul>
                             <div className="flex flex-wrap justify-start items-center gap-3 mt-4">
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="https://github.com/AbdurRahim80/bytebraze-p-1" target="_blank">Github</a></p>
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaLifeRing /> <a href="https://spectacular-cocada-435348.netlify.app/" target="_blank" className="text-xs lg:text-base">Live</a></p>
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="https://github.com/AbdurRahim80/bytebraze-p-1" target="_blank" className="text-xs lg:text-base">Github</a></p>
 
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaLifeRing /> <a href="https://spectacular-cocada-435348.netlify.app/" target="_blank">Live side</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 {/* third project */}
-                <div data-aos="fade-right" data-aos-duration="2000" className="flex flex-col lg:flex-row justify-between items-center gap-8 mt-8 lg:relative">
+                {/* <div data-aos="fade-right" data-aos-duration="2000" className="flex flex-col lg:flex-row justify-between items-center gap-8 mt-8 lg:relative">
                     <div className="w-full lg:w-1/2 rounded-lg overflow-hidden ">
                         <a href="https://asiatourtism.web.app/" target="_blank" className="relative group">
                             <img src={asiatourtism} alt="" className="w-full h-full rounded-lg group-hover:scale-105 duration-300" />
@@ -97,13 +97,13 @@ const Project = () => {
                                 <li>Firebase</li>
                             </ul>
                             <div className="flex lg:justify-end items-center gap-3 mt-4">
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="">Client side</a></p>
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="">Server side</a></p>
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaLifeRing /> <a href="">Live side</a></p>
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="" className="text-xs lg:text-base">Client repo</a></p>
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="" className="text-xs lg:text-base">Server repo</a></p>
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaLifeRing /> <a href="" className="text-xs lg:text-base">Live</a></p>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </Container>
     );
