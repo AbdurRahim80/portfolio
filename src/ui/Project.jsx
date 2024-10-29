@@ -1,5 +1,6 @@
 import { FaGithub, FaLifeRing } from "react-icons/fa";
-import { asiatourtism, blog } from "../assets";
+import { asiatourtism, blog, } from "../assets";
+import { shofy } from "../assets";
 import Container from "./Container";
 import SectionTitle from "./SectionTitle";
 
@@ -73,37 +74,37 @@ const Project = () => {
                     </div>
                 </div>
                 {/* third project */}
-                {/* <div data-aos="fade-right" data-aos-duration="2000" className="flex flex-col lg:flex-row justify-between items-center gap-8 mt-8 lg:relative">
+                <div data-aos="fade-right" data-aos-duration="2000" className="flex flex-col lg:flex-row justify-between items-center gap-8 mt-8 lg:relative">
                     <div className="w-full lg:w-1/2 rounded-lg overflow-hidden ">
-                        <a href="https://asiatourtism.web.app/" target="_blank" className="relative group">
-                            <img src={asiatourtism} alt="" className="w-full h-full rounded-lg group-hover:scale-105 duration-300" />
+                        <a href="https://shofy-project.vercel.app" target="_blank" className="relative group">
+                            <img src={shofy} alt="" className="w-full h-full rounded-lg group-hover:scale-105 duration-300" />
                             <div className="w-full h-full absolute bg-black/20 hover:bg-transparent duration-200 left-0 top-0" />
                         </a>
                     </div>
                     <div className="w-full lg:w-1/2 lg:text-right flex flex-col justify-between gap-4  lg:absolute  lg:top-0 lg:right-6 z-10 h-full">
                         <div>
                             <p className="text-designColor">Feature Project</p>
-                            <h1 className="text-xl font-bold">Asia Tourist Sports Project </h1>
+                            <h1 className="text-xl font-bold">Shofy E-commerce Project </h1>
                         </div>
                         <div className="bg-slate-800 p-2 rounded-md">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur, inventore numquam adipisci perspiciatis dolorum enim. Doloribus impedit unde vero, quidem, eos a accusamus, atque officia et laboriosam odio nobis?</p>
+                            <p>Developed a fully functional and responsive e-commerce platform using the Shofy framework, focusing on delivering a smooth, user-friendly shopping experience. This project involved building essential e-commerce features such as product cataloguing, shopping cart, secure checkout, and user authentication.</p>
                         </div>
                         <div>
                             <ul className="flex flex-wrap lg:justify-end items-center gap-3 text-slate-400">
-                                <li>React.Js</li>
-                                <li>MongoDB</li>
+                                <li>Next.Js</li>
+                                <li>Redux</li>
                                 <li>Express.Js</li>
                                 <li>Node.Js</li>
-                                <li>Firebase</li>
+                                <li>Auth.js</li>
                             </ul>
                             <div className="flex lg:justify-end items-center gap-3 mt-4">
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="" className="text-xs lg:text-base">Client repo</a></p>
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="" className="text-xs lg:text-base">Server repo</a></p>
-                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaLifeRing /> <a href="" className="text-xs lg:text-base">Live</a></p>
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="https://github.com/AbdurRahim80/shofy" className="text-xs lg:text-base">Github repo</a></p>
+                                {/* <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaGithub /><a href="" className="text-xs lg:text-base">Server repo</a></p> */}
+                                <p className="inline-flex items-center gap-1 border border-slate-700 rounded-md hover:border-slate-500 p-1 duration-300"><FaLifeRing /> <a href="https://shofy-project.vercel.app" className="text-xs lg:text-base">Live</a></p>
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </Container>
     );

@@ -22,6 +22,6 @@ import tailwind from './skills/tailwind.png'
 import js from './skills/js.png'
 import github from './skills/github.png'
 import blog from './images/blog.png'
+import shofy from './images/shofy.png'
 
-
-export {logo, photo, photo2, asiatourtism, ARLogo, mongobd, react, express, node, hand, bootstrap, css3, figma, firebase, html5, js, mongobd2, next, nodejs, react2, redux, tailwind, github, blog};
+export {logo, photo, photo2, asiatourtism, shofy, ARLogo, mongobd, react, express, node, hand, bootstrap, css3, figma, firebase, html5, js, mongobd2, next, nodejs, react2, redux, tailwind, github, blog};
